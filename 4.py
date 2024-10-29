@@ -91,7 +91,7 @@ plt.boxplot([df_microsoft['Microsoft'], df_linux['Linux']], labels=['Microsoft',
 plt.title('Box-Plot dos Sistemas Operacionais', fontsize=16)
 plt.xlabel('Tempo (segundos)', fontsize=14)
 plt.xticks(fontsize=12)
-plt.savefig('boxplot_sistemas_operacionais.png')
+plt.savefig('4-boxplot_sistemas_operacionais.png')
 plt.show()
 
 
