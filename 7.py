@@ -28,7 +28,7 @@ plt.title('Distribuição do Limite de Crédito Condicionada à Inadimplência')
 plt.xlabel('Limite de Crédito (X1)')
 plt.ylabel('Frequência')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.savefig('histograma_inadimplencia_divida.png')
+plt.savefig('7-histograma_inadimplencia_divida.png')
 plt.show()
 
 # (b) Box-plot individuais para investigar o efeito do gênero, educação e estado civil no valor da dívida
@@ -39,7 +39,7 @@ plt.title('Box-Plot do Limite de Crédito por Gênero')
 plt.xlabel('Gênero')
 plt.ylabel('Limite de Crédito (X1)')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.savefig('boxplot_genero_divida.png')
+plt.savefig('7-boxplot_genero_divida.png')
 plt.show()
 
 # Box-plot por Educação
@@ -49,7 +49,7 @@ plt.title('Box-Plot do Limite de Crédito por Educação')
 plt.xlabel('Educação')
 plt.ylabel('Limite de Crédito (X1)')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.savefig('boxplot_educacao_divida.png')
+plt.savefig('7-boxplot_educacao_divida.png')
 plt.show()
 
 # Box-plot por Estado Civil
@@ -59,7 +59,7 @@ plt.title('Box-Plot do Limite de Crédito por Estado Civil')
 plt.xlabel('Estado Civil')
 plt.ylabel('Limite de Crédito (X1)')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.savefig('boxplot_estado_civil_divida.png')
+plt.savefig('7-boxplot_estado_civil_divida.png')
 plt.show()
 
 # Explicação dos tipos de variáveis
