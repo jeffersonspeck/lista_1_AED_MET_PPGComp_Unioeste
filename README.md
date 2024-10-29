@@ -13,6 +13,7 @@ pip install pandas
 pip install numpy
 pip install matplotlib
 pip install scipy
+pip install xlrd
 ```
 
 ## Informações dos Bancos de Dados (Não Disponíveis)
